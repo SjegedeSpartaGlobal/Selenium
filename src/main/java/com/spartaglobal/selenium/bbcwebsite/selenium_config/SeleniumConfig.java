@@ -1,5 +1,6 @@
 package com.spartaglobal.selenium.bbcwebsite.selenium_config;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -17,6 +18,7 @@ public class SeleniumConfig {
         }
 
         this.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+//        this.driver.manage().window().setSize(new Dimension(50, 80));
     }
 
     public WebDriver getDriver() {
