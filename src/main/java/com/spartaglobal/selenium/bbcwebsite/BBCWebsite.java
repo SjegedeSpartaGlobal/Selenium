@@ -1,7 +1,7 @@
 package com.spartaglobal.selenium.bbcwebsite;
 
-import com.spartaglobal.selenium.bbcwebsite.pages.HomePage;
-import com.spartaglobal.selenium.bbcwebsite.pages.LoginPage;
+import com.spartaglobal.selenium.bbcwebsite.bbcpagesobject.HomePage;
+import com.spartaglobal.selenium.bbcwebsite.bbcpagesobject.LoginPage;
 import org.openqa.selenium.WebDriver;
 
 public class BBCWebsite {

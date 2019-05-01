@@ -1,4 +1,4 @@
-package com.spartaglobal.selenium.bbcwebsite.pages;
+package com.spartaglobal.selenium.bbcwebsite.bbcpagesobject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
